@@ -1,0 +1,8 @@
+{
+  "mongoURI": "mongodb+srv://monolith:monolith@12345@cluster0.moibk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  "cloudinary": {
+    "cloud_name": "devradheee",
+    "api_key": "477131675996725",
+    "api_secret": "1VKh0DlJZ0ZAB3VcvtljbmJ6sbQ"
+  }
+}

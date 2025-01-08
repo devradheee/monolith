@@ -12,7 +12,7 @@ A full stack auction website created using the MERN Stack
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/jarrodmalkovic/auction-website.git`
+- Clone this repo to your local machine using `https://github.com/devradheee/monolith.git`
 
 ### Install dependencies
 

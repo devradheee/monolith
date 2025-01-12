@@ -17,6 +17,7 @@ const cloudinaryConfig = config.get('cloudinary');
 
 // Connect Database
 connectDB(mongoURI);
+connectDB();
 
 // Cloudinary Setup for image upload
 cloudinary.config({
@@ -81,10 +82,18 @@ app.all('*', (req, res, next) => {
 
 app.use(globalErrorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
+
+// const PORT = process.env.PORT || 5001; // Use 5001 or any other free port
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
 
 if (process.env.NODE_ENV !== 'test') {
   server.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 }
+
+
 
 module.exports = server;
